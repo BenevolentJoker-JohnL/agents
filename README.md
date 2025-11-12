@@ -1,8 +1,8 @@
 # agents
 
-**⚠️ EXPERIMENTAL FRAMEWORK ⚠️**
+**⚠️ EXPERIMENTAL MINIMAL AGENT FRAMEWORK ⚠️**
 
-An experimental, lightweight framework for building agents with local LLM deployments. Currently configured for **Ollama** with full implementation. Includes stubs for other local LLM providers.
+A minimal, experimental framework for building agents with local LLM deployments. Designed for **minimal overhead** and **maximum simplicity**. Currently configured for **Ollama** with full implementation. Includes stubs for other local LLM providers.
 
 ## 🎯 Project Status
 
@@ -48,10 +48,15 @@ pip install -e ".[distributed]"
 
 ## ✨ Features
 
-- **Minimal Overhead**: Direct API calls with clean abstractions
-- **Modular Design**: Easy to extend for new LLM providers
+**Minimal by Design:**
+- **Zero Bloat**: Direct API calls with clean abstractions
+- **Minimal Dependencies**: Only aiohttp and numpy (core)
+- **Simple Architecture**: Easy to understand and extend
+- **No Magic**: Explicit, straightforward code
+
+**Core Capabilities:**
 - **Provider Abstraction**: Common interface for all local LLM deployments
-- **Built-in Agents**: Pre-configured agents for common tasks
+- **Built-in Agents**: Pre-configured agents for common tasks (optional)
 - **Streaming Support**: Native async streaming
 - **Distributed Mode**: Optional SOLLOL integration for Ollama clusters
 - **Type-Safe**: Full type hints throughout
@@ -322,6 +327,6 @@ Built with patterns from:
 
 ---
 
-**Status**: Experimental | **Primary Use**: Ollama deployments | **Looking for**: Contributors to implement other providers!
+**Status**: Experimental Minimal Framework | **Philosophy**: Zero bloat, maximum simplicity | **Primary Use**: Ollama deployments | **Looking for**: Contributors to implement other providers!
 
-Made for the local LLM community ❤️
+Made for the local LLM community ❤️ | Keep it minimal, keep it simple.

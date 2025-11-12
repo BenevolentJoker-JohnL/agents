@@ -1,10 +1,12 @@
 """
-Agents - Experimental Local LLM Agent Framework
-===============================================
+Agents - Minimal Experimental Local LLM Agent Framework
+=======================================================
 
-⚠️ EXPERIMENTAL FRAMEWORK ⚠️
+⚠️ EXPERIMENTAL MINIMAL FRAMEWORK ⚠️
 
-This is an experimental framework for building agents with local LLM deployments.
+A minimal, experimental framework for building agents with local LLM deployments.
+**Zero bloat, maximum simplicity, direct API calls.**
+
 Currently configured for Ollama, with stubs for other local LLM providers:
 - Ollama (Fully Implemented ✓)
 - llama.cpp (Stub)
@@ -13,7 +15,7 @@ Currently configured for Ollama, with stubs for other local LLM providers:
 - LocalAI (Stub)
 - LM Studio (Stub)
 
-Supports both single-node and distributed deployments with minimal overhead.
+Minimal overhead design - supports both single-node and distributed deployments.
 
 Basic Usage
 -----------
