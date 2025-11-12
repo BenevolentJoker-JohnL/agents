@@ -38,12 +38,21 @@ print(response)
 
 ## 📦 Installation
 
+### From PyPI (Recommended)
+
 ```bash
-cd agents
-pip install -e .
+pip install local-agents
 
 # With distributed support (SOLLOL)
-pip install -e ".[distributed]"
+pip install local-agents[distributed]
+```
+
+### From Source
+
+```bash
+git clone https://github.com/BenevolentJoker-JohnL/agents.git
+cd agents
+pip install -e .
 ```
 
 ## ✨ Features

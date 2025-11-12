@@ -10,14 +10,17 @@ Get up and running with agents in 5 minutes!
 
 ## Installation
 
+### Option 1: From PyPI (Easiest)
+
 ```bash
-# Clone or download the repository
-cd OllamaAgent
+pip install local-agents
+```
 
-# Install dependencies
-pip install -r requirements.txt
+### Option 2: From Source
 
-# Or install in development mode
+```bash
+git clone https://github.com/BenevolentJoker-JohnL/agents.git
+cd agents
 pip install -e .
 ```
 
