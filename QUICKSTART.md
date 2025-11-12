@@ -1,6 +1,6 @@
-# agents - Quick Start Guide
+# L'Agent - Quick Start Guide
 
-Get up and running with agents in 5 minutes!
+Get up and running with L'Agent in 5 minutes!
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Get up and running with agents in 5 minutes!
 ### Option 1: From PyPI (Easiest)
 
 ```bash
-pip install local-agents
+pip install lagents
 ```
 
 ### Option 2: From Source

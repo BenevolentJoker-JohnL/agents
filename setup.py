@@ -1,5 +1,5 @@
 """
-Setup script for agents - Minimal Local LLM Agent Framework
+Setup script for L'Agent - Minimal Local LLM Agent Framework
 """
 
 from setuptools import setup, find_packages
@@ -8,11 +8,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="local-agents",
-    version="0.1.0",
+    name="lagents",
+    version="0.1.1",
     author="BenevolentJoker",
     author_email="benevolentjoker@example.com",
-    description="Minimal experimental framework for building agents with local LLM deployments. Zero bloat, maximum simplicity.",
+    description="L'Agent - Minimal experimental framework for building agents with local LLM deployments. Zero bloat, maximum simplicity.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/BenevolentJoker-JohnL/agents",
@@ -30,7 +30,7 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
     ],
-    keywords="llm agents ollama local minimal framework llama vllm",
+    keywords="llm agents ollama local minimal framework llama vllm lagent",
     python_requires=">=3.8",
     install_requires=[
         "aiohttp>=3.8.0",

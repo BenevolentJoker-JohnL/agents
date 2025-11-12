@@ -1,8 +1,10 @@
-# agents
+# L'Agent
 
 **⚠️ EXPERIMENTAL MINIMAL AGENT FRAMEWORK ⚠️**
 
 A minimal, experimental framework for building agents with local LLM deployments. Designed for **minimal overhead** and **maximum simplicity**. Currently configured for **Ollama** with full implementation. Includes stubs for other local LLM providers.
+
+> **L'Agent** - The minimal agent framework for local LLMs
 
 ## 🎯 Project Status
 
@@ -41,10 +43,10 @@ print(response)
 ### From PyPI (Recommended)
 
 ```bash
-pip install local-agents
+pip install lagents
 
 # With distributed support (SOLLOL)
-pip install local-agents[distributed]
+pip install lagents[distributed]
 ```
 
 ### From Source
