@@ -15,7 +15,7 @@ setup(
     description="L'Agent - Minimal experimental framework for building agents with local LLM deployments. Zero bloat, maximum simplicity.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/BenevolentJoker-JohnL/agents",
+    url="https://github.com/B-A-M-N/agents",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -49,8 +49,8 @@ setup(
         ],
     },
     project_urls={
-        "Bug Reports": "https://github.com/BenevolentJoker-JohnL/agents/issues",
-        "Source": "https://github.com/BenevolentJoker-JohnL/agents",
-        "Documentation": "https://github.com/BenevolentJoker-JohnL/agents#readme",
+        "Bug Reports": "https://github.com/B-A-M-N/agents/issues",
+        "Source": "https://github.com/B-A-M-N/agents",
+        "Documentation": "https://github.com/B-A-M-N/agents#readme",
     },
 )

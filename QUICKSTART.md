@@ -19,7 +19,7 @@ pip install lagents
 ### Option 2: From Source
 
 ```bash
-git clone https://github.com/BenevolentJoker-JohnL/agents.git
+git clone https://github.com/B-A-M-N/agents.git
 cd agents
 pip install -e .
 ```
